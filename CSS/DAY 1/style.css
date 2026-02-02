@@ -1,3 +1,7 @@
+@font-face{
+    font-family: horror;
+    src: url(./Another\ Danger\ -\ Demo.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +11,12 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: rgb(238, 209, 112);
 }
 
 h1{
-    color: red;
-    background-color: yellow;
+    color: rgb(12, 229, 175);
+    background-color: rgb(115, 29, 226);
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
@@ -26,4 +31,34 @@ h2{
 
 p{
     color: green;
+}
+
+#hd1{
+    color: orange;
+    font-size: 50px;
+}
+
+#hd2{
+    color: pink;
+}
+
+.heading{
+    background-color: aqua;
+    font-size: 80px;
+    color: blueviolet;
+}
+
+.paragraph{
+    background-color: rgb(204, 225, 85);
+    font-size: 11px;
+    color: rgb(25, 94, 97);
+}
+h4{
+    font-family: horror;
+} 
+
+.div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
 }
