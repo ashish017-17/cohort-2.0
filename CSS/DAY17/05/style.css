@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 100;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTl1Y2RnZGRvcGx0bWR1cXRhdzNud3dra2pvZHJqMWt3bWQyMm9wOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lYgsRPkt16EL5U2fvR/giphy.webp);
+    background-size: cover;
+    text-align: center;
+    background-clip: text;
+}

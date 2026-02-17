@@ -14,21 +14,10 @@ html,body{
     background-color: black;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
 
 .box{
     background-color: crimson;
-}
-
-.box:nth-child(3n){
-    background-color: yellow;
-}
-
-.box:nth-child(2n){
-    background-color: aquamarine;
-}
-
-.box:nth-child(4n){
-    background-color: darkseagreen;
+    border: 2px solid black;
 }
