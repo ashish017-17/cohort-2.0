@@ -13,12 +13,38 @@ body{
     background-color: black;
 }
 
-h1{
+.one{
     font-size: 60px;
     color: transparent;
     font-weight: 100;
-    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTl1Y2RnZGRvcGx0bWR1cXRhdzNud3dra2pvZHJqMWt3bWQyMm9wOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lYgsRPkt16EL5U2fvR/giphy.webp);
+    background-image: url(https://cdn.pixabay.com/animation/2023/03/23/18/15/18-15-48-609_512.gif);
     background-size: cover;
     text-align: center;
     background-clip: text;
+}
+
+.two{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 100;
+    background: linear-gradient(red, blue);
+    text-align: center;
+    background-clip: text;
+}
+
+.three{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 100;
+    background: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGdyYWRpZW50fGVufDB8fDB8fHww);
+    text-align: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+.four{
+    font-size: 60px;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px red;
 }
