@@ -29,3 +29,5 @@ function abcd() {
 //block scoped can be access only in the block "{}"
 
 //Reassignment, redeclaration
+
+var a = 12
