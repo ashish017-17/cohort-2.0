@@ -1,0 +1,17 @@
+// add comments
+// harsh
+
+
+//
+// float
+// number
+// string
+// boolean
+// null
+// array
+// object
+// symbol - will learn when will see objects in detail
+// undefined
+// NaN
+// Infinity
+// relative and primitive datatype in js
