@@ -68,6 +68,5 @@ html,body{
 }
 
 .card:hover .bottom{
-    bottom: 0;
-    
+    bottom: 0;    
 }
