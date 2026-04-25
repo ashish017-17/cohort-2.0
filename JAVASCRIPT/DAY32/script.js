@@ -80,3 +80,36 @@
 // - `for of` Loop in JavaScript
 // - Recursion in JavaScript
 // - Loop control Statements - [`break` , `continue`]
+
+// straightforward loops -> naa hi value badalti hai naa hi printing badalti hai
+// dynamic loop -> value badal sakti hai and printing bhi badal sakti hai
+// jab koi ek hi cheej kitni baar print honi hai isse koi farak nahi padta ki tumhara loop ki I ki value kaha se shuru ho rahi hai
+
+// for loop
+
+// for(let i = 1; i<50; i++){
+//     console.log("1");
+// }
+
+// 1 2 3 4 5 
+
+// for(let i =1; i<=5; i++){
+//     console.log(i);
+// }
+
+
+// for(let i =5; i>=-5; i--){
+//     console.log(i);
+// }
+
+// 121 - 12
+// for(let i = 121; i>=12; i--){
+//     console.log(i)
+// }
+
+// 12 - 1 without 5 and 7
+
+// for (let i = 12; i>=1; i--){
+//     if( i === 5 || i === 7){}
+//     else console.log(i);
+// }
