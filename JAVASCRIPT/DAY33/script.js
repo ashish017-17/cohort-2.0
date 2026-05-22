@@ -56,6 +56,7 @@
 
 // 6.  Ask user for a number and say if it's positive or negative
 //     Use prompt() and a conditional.
+
 // let num = prompt("Enter the number");
 // num = parseInt(num);
 // if (num >= 0) {
@@ -64,3 +65,29 @@
 // else{
 //     console.log("negative")
 // }
+
+
+// 7.  Ask user's age and check if eligible to vote
+//     If age >= 18 -> "Eligible", else -> "Not eligible"
+
+// let age = prompt("Enter your age");
+
+// if(age === null){
+//     console.error("You pressed cancel");
+//     }
+//     else{
+//         if(age.trim() === "") {
+//         console.error("you pressed too many space");
+//     }
+//     else{
+//         age = Number(age.trim());
+//     if (isNaN(age)) {
+//         console.error("Not a Valid age");
+//     }
+//     else{
+//         console.log("valid age");
+//     }
+//     }
+// }
+
+
