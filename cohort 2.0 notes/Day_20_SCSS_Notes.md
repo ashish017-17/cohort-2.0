@@ -66,7 +66,7 @@ Flexbox centering you can save it as a mixin.
 Example:
 
 
-@mixin flex-center {
+@mixin flex-center() {
   display: flex;
   justify-content: center;
   align-items: center;
