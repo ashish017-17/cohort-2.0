@@ -1,0 +1,300 @@
+:root{
+    --gray: #212121;
+    --green: #009660;
+    --white: #e9e9e9;
+    --black: #0c0c0c;
+    --lgray: #929292; 
+}
+
+
+
+@font-face {
+    font-family: Neue;
+    src: url(./NeueMachina-Regular.woff2);
+}
+
+@font-face {
+    font-family: Helveticaa;
+    src: url(./Helvetica\ Neue\ LT\ Std\ 37\ Thin\ Condensed.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--black);
+}
+
+.vgreen{
+    color: var(--green) ;
+}
+
+.lgray{
+    color: var(--lgray) ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav1{
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.nav1 img{
+    height: 45px;
+}
+
+.nav1 h4{
+    font-family: Neue;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 100;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav2 h4{
+    font-family: Neue;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav2 img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+.nav2 h4 i{
+    font-size: 20px;
+}
+
+.nav2 .green{
+    color: rgb(0, 255, 170);
+}
+
+.nav3{
+    display: none;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav3 h4{
+    font-family: Neue;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav3 h4 i{
+    font-size: 20px;
+}
+
+.nav3 img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+main{
+    padding-top: 100px;
+}
+
+.section1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 70px;
+    font-family: Helveticaa;
+}
+
+.section1 .left{
+    width: 42%;
+}
+
+.section1 .left h1{
+    font-size: 48px;
+}
+
+.section1 .left .tags{
+    display: flex;
+    align-items: center;
+    gap: 5px 5px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.section1 .left .tags h4{
+    padding: 10px 20px;
+    border-radius: 4px;
+    white-space: nowrap;
+    background-color: var(--gray);
+}
+
+.left .price{
+    font-size: 35px;
+}
+
+.left .price .lgray{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.section1 .left .cta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.cta button{
+    background-color: var(--green);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.cta button:nth-child(2){
+    background-color: var(--gray);
+}
+
+.section1 .right .right-in{
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.section1 .right .right-in .image{
+    width: 100%;
+    height: 50vw;
+}
+
+.section1 .right .right-in .image img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.section1 .right .right-in .image-bottom{
+    padding: 20px;
+    background-color: var(--gray);
+    padding-top: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right-in .image-bottom h4{
+    background-color: #151515;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+
+
+@media (max-width:600px) {
+
+    nav {
+        padding: 10px 25px;
+    }
+
+    .nav1 img {
+        height: 30px;
+    }
+
+    .nav1 h4{
+        font-size: 12px;
+    }
+
+    .nav2{
+        display: none;
+    }
+
+    .nav3{
+        display: flex;
+    }
+}
+
+@media (max-width:1400px) {
+
+    .section1 .left h1{
+        font-size: 3.5vw;
+    }
+
+}
+
+@media (max-width:1220px) {
+
+    main{
+        padding-top: 50px;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+        padding: 15px 5vw;
+    }
+
+    .section1 .left{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .section1 .left h1{
+        font-size: 33px;
+    }
+
+    .section1 .right .right-in{
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .section1 .right .right-in .image-bottom{
+    padding: 10px;
+    padding-top: 20px;
+    gap: 8px;
+    }
+
+    .right-in .image-bottom h4{
+        padding: 6px 12px;
+        border-radius: 5px;
+        font-size: 2vw;
+        width: 45%;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .section1 .left h1{
+        font-size: 5vw;
+    }
+
+}
+

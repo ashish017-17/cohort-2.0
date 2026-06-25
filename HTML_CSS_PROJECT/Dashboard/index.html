@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <div class="dashboard">
+         <!-- Mobile Overlay -->
+         <div class="mobile-overlay" id="mobileOverlay"></div>
+
+         <!-- Header -->
+         <header class="header">
+            <div class="header-left">
+                <button class="mobile-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="notification">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">3</span>
+                </div>
+                <div class="user-profile">
+                    <img src="asset/images/profile1.avif" alt="User profile">
+                </div>
+            </div>
+         </header>
+
+         <!-- Sidebar -->
+         <aside class="sidebar" id="sidebar"></aside>
+
+         <!-- Main Content -->
+         <main class="content"></main>
+
+         <!-- footer -->
+         <footer class="footer"></footer>
+
+    </div>
+</body>
+<script src="asset/Javascript/script.js"></script>
+</html>
