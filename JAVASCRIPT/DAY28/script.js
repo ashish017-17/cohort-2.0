@@ -24,9 +24,29 @@
 // Infinity
 // relative and primitive datatype in js
 
-var a = [1, 2, 3, 4, 5];
-var b = a; // reference copy
-b.pop();
+// var a = [1, 2, 3, 4, 5];
+// var b = a; // reference copy
+// b.pop();
 
 //primitives - jinki value direct copy kar sakte hai
 // reference - jinki value copy nahi kar sakte hai, unka reference copy karte hai
+
+
+
+// {
+//     let a = "ashish";
+//     console.log(a);
+// }
+// console.log(a);
+
+// let name = prompt("What is your name?");
+// console.log(`Welcome ${name}`);
+
+// let age = prompt("enter age"); 
+// console.log(age + 5);
+
+let mg = "I love Sheryians";
+console.log(mg.split(" "));
+
+let msg = "I love Sheryians";
+console.log(msg.replace("love", "study at"));
