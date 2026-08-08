@@ -1,0 +1,8 @@
+DOM - Document Object Model
+Frontend ki JS
+
+DOM 4 Pillars
+- Selection of an Element
+- Changing HTML
+- Changing CSS
+- Event listeners
