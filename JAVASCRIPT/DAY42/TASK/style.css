@@ -56,3 +56,13 @@ html,body{
     border-radius: 10%;
     margin-bottom: 10px;
 }
+
+#res{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
