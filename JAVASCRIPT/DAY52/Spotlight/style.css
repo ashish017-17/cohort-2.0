@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/*
+    linear gradient
+    radial gradient
+*/    
+
+:root{
+    --x: 200px;
+    --y: 200px;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(at var(--x) var(--y) ,red, blue);
+}

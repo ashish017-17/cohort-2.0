@@ -1,3 +1,3 @@
 day47 ---- have to watch video of task.md
 
-day50
+day52 :   --49:58--
