@@ -91,6 +91,3 @@ document.body.appendChild(list);
 ```
 
 ---
-
-
-Made with ❤️ for DOM mastery.

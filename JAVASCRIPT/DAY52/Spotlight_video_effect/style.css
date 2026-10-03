@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/*
+    linear gradient
+    radial gradient
+*/    
+
+:root{
+    --x: 400px;
+    --y: 400px;
+}
+
+body{
+    background: url(ironman.mp4);
+    background-size: cover;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(150px at var(--x) var(--y) ,rgba(255, 255, 255, 0.048), rgba(0, 0, 0, 0.744));
+}

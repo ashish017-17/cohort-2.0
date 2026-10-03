@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(146, 146, 146);
+    box-shadow: inset 5px 5px 20px rgb(0, 0, 0); /* x| y | spread radius | color*/
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 5px 5px 1px red;
+}
+
+
+
+
+
+
+@keyframes changeBackgroundColor {
+    
+    from{
+        background-color: white;
+        border-radius: 0;
+        scale: 1;
+    }
+
+    to{
+        background-color: blue;
+        border-radius: 50px;
+        scale: 0.5;
+    }
+
+}
+
+.box1{
+    height: 200px;
+    width: 400px;
+    background: conic-gradient(from 45deg, white, black, red, yellow);   
+}
+
+.box2{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    animation: changeBackgroundColor 5s infinite forwards alternate;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes changeBG {
+    
+    from{
+        background-color: white;
+        border-radius: 0%;
+        transform: translate(0px) scale(1);
+        visibility: visible;
+    }
+
+    to{
+        background-color: palevioletred;
+        border-radius: 50%;
+        transform: translate(-600px) scale(0.5);
+        visibility: hidden;
+    }
+}
+
+/* discrete properties in css */
+
+.box3{
+    height: 200px;
+    width: 400px;
+    border: 1px solid white;
+    animation: changeBG 3s forwards ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* color, length, angle */
+
+@property --bgColor{
+    syntax: "<color>";
+    initial-value: rgb(68, 0, 255);
+    inherits: false;
+}
+
+@keyframes animateBgcolor {
+    
+    from{
+        --bgColor: red;
+    }
+
+    to{
+        --bgColor: blue;
+    }
+
+}
+
+.box4{
+    height: 200px;
+    width: 400px;
+    background-color: var(--bgColor);
+    animation: animateBgcolor 10s;
+}   

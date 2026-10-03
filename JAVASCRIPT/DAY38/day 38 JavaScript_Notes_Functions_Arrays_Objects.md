@@ -221,4 +221,3 @@ console.log(studentData.marks.math); // 95
 ```
 
 ---
-
