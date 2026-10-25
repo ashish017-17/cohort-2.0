@@ -97,31 +97,31 @@
 
 
 
-// function loginUser(username, cb){
-//     console.log("logging in user...");
-//     setTimeout(() => {
-//         cb({id: 1212, username:"harsh"})
-//     }, 1000);
-// }
+function loginUser(username, cb){
+    console.log("logging in user...");
+    setTimeout(() => {
+        cb({id: 1212, username:"harsh"})
+    }, 1000);
+}
 
-// function fetchPermissions(id, cb){
-//     console.log("fetching permission...");
-//     setTimeout(() => {
-//         cb(["read","write","delete"])
-//     }, 2000);
-// }
+function fetchPermissions(id, cb){
+    console.log("fetching permission...");
+    setTimeout(() => {
+        cb(["read","write","delete"])
+    }, 2000);
+}
 
-// function loadDashBoard(permission, cb){
-//     console.log("loading dashboard");
-//     setTimeout(() => {
-//         cb();
-//     }, 2000);
-// }
+function loadDashBoard(permission, cb){
+    console.log("loading dashboard");
+    setTimeout(() => {
+        cb();
+    }, 2000);
+}
 
-// loginUser("guestUser_7854", function(userdata){
-//     fetchPermissions(userdata.id, function(permission){
-//         loadDashBoard(permission, function(){
-//             console.log("Dashboard Loaded")
-//         });
-//     });
-// });
+loginUser("guestUser_7854", function(userdata){
+    fetchPermissions(userdata.id, function(permission){
+        loadDashBoard(permission, function(){
+            console.log("✅Dashboard Loaded");
+        });
+    });
+});
