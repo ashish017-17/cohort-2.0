@@ -1,0 +1,72 @@
+:root{
+    --primary: #E3F2FD;
+    --secondary: #90CAF9;
+    --secondary2: #2196F3;
+    --tertiary: #0D47A1;
+}
+
+@font-face {
+    font-family: aeonik;
+    font-weight: 200;
+    src: url(./assets/fonts/AeonikTRIAL-Light.otf);
+}
+
+@font-face {
+    font-family: aeonik;
+    font-weight: 500;
+    src: url(./assets/fonts/AeonikTRIAL-Regular.otf);
+}
+
+@font-face {
+    font-family: aeonik;
+    font-weight: 700;
+    src: url(./assets/fonts/AeonikTRIAL-Bold.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
+    color: var(--primary);
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: var(--tertiary);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #90CAF9;
+}
+
+section.allElems{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.elem{
+    height: 400px;
+    width: 300px;
+    font-size: 30px;
+    background-color: var(--secondary2);
+    padding: 30px 40px;
+    border-radius: 20px;
+}
