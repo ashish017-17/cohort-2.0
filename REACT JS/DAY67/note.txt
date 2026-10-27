@@ -1,0 +1,11 @@
+React js - Library.
+Angular js - framework
+
+Library
+ - GSAP (moving animation)
+ - Lenis (Scrolling Smoothness)
+ - swiper js (sliders)
+ - three.js (3D element)
+ - Reactjs (frontend)
+
+
