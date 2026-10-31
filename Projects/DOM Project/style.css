@@ -1,8 +1,8 @@
 :root{
-    --primary: #E3F2FD;
-    --secondary: #90CAF9;
-    --secondary2: #2196F3;
-    --tertiary: #0D47A1;
+    --primary: #FFF5F5;
+    --secondary: #E2B4BD;
+    --secondary2: #F7D6D0;
+    --tertiary: #4A4A4A;
 }
 
 @font-face {
@@ -29,7 +29,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: aeonik;
-    color: var(--primary);
+    color: var(--tertiary);
 }
 
 html,
@@ -41,7 +41,7 @@ body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: var(--tertiary);
+    background-color: var(--primary);
 }
 
 nav{
