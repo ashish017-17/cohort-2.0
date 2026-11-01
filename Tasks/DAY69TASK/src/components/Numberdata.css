@@ -1,0 +1,26 @@
+.numberdata{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.num1 h1{
+    font-size: 40px;
+}
+
+.numdata p span{
+    color: rgb(47, 47, 47);
+    font-weight: 800;
+    font-size: 32;
+}
