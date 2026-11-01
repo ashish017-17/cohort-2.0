@@ -1,0 +1,24 @@
+.about-section{
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-left h4{
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: 650;
+    border: 1px solid rgba(0, 0, 0, 0.319);
+    border-radius: 30px;
+}
+
+.about-right p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+

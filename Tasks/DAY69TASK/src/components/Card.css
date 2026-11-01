@@ -1,0 +1,155 @@
+.card-section{
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-one{
+    height: 400px;
+    width: 425px;
+    border-radius: 30px;
+    background-color: #0D1A2D;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-one h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.card-one h4{
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+span{
+    color: #637186;
+}
+
+.game-mode-btn{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn{
+    
+    height: 25px;
+    width: 50px;
+    background-color: #2EB2FF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.first-circle{
+    margin-right: 5px;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-circle{
+    height: 9px;
+    width: 9px;
+    background-color: #2EB2FF;
+    border-radius: 50%;
+}
+.card-two{
+    height: 400px;
+    width: 425px;
+    border-radius: 30px;
+    background: linear-gradient(#2EB2FF,#2EB2FF, #2eb2ff72);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.button-card-two{
+    padding: 15px 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.685),rgba(255, 255, 255, 0.296),rgba(255, 255, 255, 0.537));
+    border-radius: 30px;
+    color: white;
+}
+
+
+.card-three{
+    height: 400px;
+    width: 425px;
+    border-radius: 30px;
+    background-color: #e7ebed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 50px;
+    gap: 10px;
+}
+
+.card-three .three-icon h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.three-tittle{
+    font-size: 16px;
+}
+
+.three-content{
+    font-size: 16;
+    color: rgba(0, 0, 0, 0.789);
+    font-weight: 700;
+}
+
+.ranks{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-one{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.letter{
+    width: 20%;
+    font-size: 15px;
+}
+
+.circles{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+.circlee{
+    height: 20px;
+    width: 20px;
+    background-color: #2EB2FF;
+    border-radius: 50%;
+}
+
+.digit{
+    width: 10%;
+    font-size: 20px;
+}
