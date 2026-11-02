@@ -1,0 +1,152 @@
+.faq-main{
+    height: 700px;
+    width: 100%;
+    background-color: #f0f1f6;
+    border-radius: 30px;
+    padding: 40px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-left{
+    height: 550px;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.membership-card{
+    height: 250px;
+    width: 100%;
+    background-color: #2EB2FF;
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.card-first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-plan h5{
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.452),rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.189));
+}
+
+.card-first .card-price{
+    display: flex;
+    right: 0;
+}
+
+.card-second h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.card-third{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-third h4{
+    font-size: 14px;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: inline;
+    border: 1px solid white;
+}
+
+.card-fourth{
+    margin-top: 35px;
+}
+
+.card-fourth-button h4{
+    padding: 15px 25px;
+    display: inline;
+    background-color: #0D1A2D;
+    border-radius: 30px;
+}
+
+.basic-plan{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.basic-plan-text{
+    color: #637186;
+}
+
+.view-features h4{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #637186;
+}
+
+.elite-plan{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.faq-right{
+    height: 550px;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.membership h6{
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: inline;
+    font-weight: 900;
+    color: #595d64;
+    border: 1px solid #637186;
+}
+
+.membership-content h1{
+    font-weight: bolder;
+    font-size: 52px;
+}
+
+.membership-content-h4 h4{
+    font-size: 25px;
+}
+
+.court-img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.court-img img{
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+}

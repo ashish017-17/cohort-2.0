@@ -5,6 +5,9 @@ import About from './components/About'
 import Card from './components/Card'
 import Paragraph from './components/Paragraph'
 import Numberdata from './components/Numberdata'
+import Line from './components/Line'
+import Services from './components/Services'
+import Membership from './components/Membership'
 import './App.css'
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
       <Card />
       <Paragraph />
       <Numberdata />
+      <Line />
+      <Services />
+      <Membership />
     </div>
   )
 }
