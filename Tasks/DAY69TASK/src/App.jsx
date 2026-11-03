@@ -8,6 +8,7 @@ import Numberdata from './components/Numberdata'
 import Line from './components/Line'
 import Services from './components/Services'
 import Membership from './components/Membership'
+import Rythym from './components/Rythym'
 import './App.css'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Line />
       <Services />
       <Membership />
+      <Rythym />
     </div>
   )
 }

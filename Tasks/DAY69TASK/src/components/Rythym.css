@@ -1,0 +1,99 @@
+.rythym-main{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rythym-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.feel-our-rythym h5{
+    padding: 5px 8px;
+    border: 1px solid rgba(183, 177, 177, 0.604);
+    border-radius: 30px;
+    display: inline;
+}
+
+.rythym-left-content p{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.rythym-left-stars{
+    margin-top: 10px;
+}
+
+.rythym-left-champion{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rythym-left-champion-content h1{
+    font-weight: 900;
+}
+
+.rythym-left-champion-content h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rythym-left-circle{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+
+}
+
+.rythym-left-circle .white-circle{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: rgb(229, 234, 234);
+}
+
+.rythym-left-circle .blue-circle{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: #2ebeff;
+}
+
+
+.rythym-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+
+}
+
+.rythym-right-up{
+    display: flex;
+    gap: 2px;
+    justify-content: end;
+}
+
+.zero-one h1{
+    font-size: 64px;
+}
+
+.rythym-right-up .eight{
+    display: flex;
+    align-items: end;
+    font-size: 32px;
+}
+
+.champion-img{
+    position: relative;
+    height: 320px;
+    width: 375px;
+    background: url(https://plus.unsplash.com/premium_photo-1708131581665-c53883ba9690?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+    background-size: cover;
+    border-radius: 30px;
+    left: 120px;
+}
